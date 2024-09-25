@@ -21,7 +21,8 @@ public class Avarage {
         size = numbers.length;
         int[] differNum = new int[size];
         for(int i:numbers){
-            differNum[index] = avarage - i;
+            differNum[index] = i-avarage;
+            index++;
         }
         return differNum;
 
