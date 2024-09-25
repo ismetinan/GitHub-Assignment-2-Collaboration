@@ -1,7 +1,7 @@
 public class MinMaxFinder {
     
 
-    public int MinFinder(int[] arr){
+    public static int MinFinder(int[] arr){
     
         int min=arr[0];
         for(int i=1;i<arr.length;i++){
@@ -12,7 +12,7 @@ public class MinMaxFinder {
         return min;
     }
     
-    public int MaxFinder(int[] arr){
+    public static int MaxFinder(int[] arr){
     
         int max=arr[0];
         for(int i=1;i<arr.length;i++){
